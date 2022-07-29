@@ -10,8 +10,12 @@
 </script>
 
 <form on:submit|preventDefault={(e) => {submit(e)}}>
+	<div class="form-heading">
+		<h1>Hire me!</h1>
+		<h2>Fill out this form if you agree that I should be hired.</h2>
+	</div>
 	<!-- Full Name -->
-	<div>
+	<div class="input-padding">
 		<label for="name">Full Name</label>
 		<div>
 		<input name="name" type="text" autocomplete="name">
@@ -19,15 +23,17 @@
 	</div>
 
 	<!-- Email -->
-	<div>
+	<div class="input-padding">
 		<label for="email">Email</label>
 		<div>
 		<input name="email" type="text" autocomplete="email">
 		</div>
 	</div>
 
+
+	<div class="row-3">
 	<!-- Address -->
-	<div>
+	<div class="input-padding">
 		<label for="address">Street Address</label>
 		<div>
 		<input name="address" type="text" autocomplete="street-address">
@@ -35,62 +41,31 @@
 	</div>
 
 	<!-- City -->
-	<div>
+	<div class="input-padding">
 		<label for="city">City</label>
 		<div>
 		<input name="city" type="text" autocomplete="address-level2">
 		</div>
 	</div>
+</div>
 
+	<div class="row-4">
 	<!-- State -->
-	<div>
-		<label for="state">State</label>
-		<div>
-		<input name="state" type="text" autocomplete="address-level1">
+		<div class="input-padding">
+			<label for="state">State</label>
+			<div>
+			<input name="state" type="text" autocomplete="address-level1">
+			</div>
 		</div>
-	</div>
 
-	<!-- Zip -->
-	<div>
-		<label for="zip">Zip</label>
-		<div>
-		<input name="zip" type="text" autocomplete="postal-code">
+		<!-- Zip -->
+		<div class="input-padding">
+			<label for="zip">Zip</label>
+			<div>
+			<input name="zip" type="text" autocomplete="postal-code">
+			</div>
 		</div>
 	</div>
-	<button type="submit" value="submit">Submit</button>
+	<button type="submit" value="submit" class="submit-button">Submit</button>
 
 </form>
-
-<style>
-	form {
-		height: auto;
-		/* width: 50%; */
-		margin-right: 0.5rem;
-
-	}
-	form > div {
-		/* border: 1px solid black; */
-	}
-
-	form > div > div {
-		margin-top: 1px;
-	}
-
-	form > div > div > input {
-		-webkit-appearance: none;
-		width: 100%;
-		padding: 0.5rem;
-		border: 1px solid #000;
-		border-radius: 0.5rem;
-		
-	}
-
-	@media only screen and (min-width: 500px) {
-		form {
-			width: 50%;
-			margin: auto;
-
-		}
-
-}
-</style>

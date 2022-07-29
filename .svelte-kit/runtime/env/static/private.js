@@ -33,7 +33,7 @@ export const CONDA_SHLVL = "1";
 export const CONDA_PROMPT_MODIFIER = "(base) ";
 
 /** @type {import('$env/static/private').TERM_PROGRAM_VERSION} */
-export const TERM_PROGRAM_VERSION = "1.69.1";
+export const TERM_PROGRAM_VERSION = "1.69.2";
 
 /** @type {import('$env/static/private').GSETTINGS_SCHEMA_DIR_CONDA_BACKUP} */
 export const GSETTINGS_SCHEMA_DIR_CONDA_BACKUP = "";
@@ -46,9 +46,6 @@ export const ORIGINAL_XDG_CURRENT_DESKTOP = "undefined";
 
 /** @type {import('$env/static/private').COLOR} */
 export const COLOR = "1";
-
-/** @type {import('$env/static/private').TERM_SESSION_ID} */
-export const TERM_SESSION_ID = "42EE7ABF-DBC3-42B9-B7F7-7064452F56AD";
 
 /** @type {import('$env/static/private').npm_config_noproxy} */
 export const npm_config_noproxy = "";
@@ -94,9 +91,6 @@ export const npm_package_json = "/Users/kelkeurti/Documents/Code/Svelte/simple-w
 
 /** @type {import('$env/static/private')._} */
 export const _ = "/Users/kelkeurti/Documents/Code/Svelte/simple-web-form/node_modules/.bin/vite";
-
-/** @type {import('$env/static/private').LaunchInstanceID} */
-export const LaunchInstanceID = "DF0D3CFE-93C7-4BF0-94DF-E802E954A8CB";
 
 /** @type {import('$env/static/private').npm_config_userconfig} */
 export const npm_config_userconfig = "/Users/kelkeurti/.npmrc";
@@ -150,10 +144,7 @@ export const _CE_M = "";
 export const HOME = "/Users/kelkeurti";
 
 /** @type {import('$env/static/private').SHLVL} */
-export const SHLVL = "4";
-
-/** @type {import('$env/static/private').APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL} */
-export const APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = "true";
+export const SHLVL = "3";
 
 /** @type {import('$env/static/private').VSCODE_GIT_ASKPASS_MAIN} */
 export const VSCODE_GIT_ASKPASS_MAIN = "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js";
@@ -173,11 +164,11 @@ export const npm_lifecycle_script = "vite dev";
 /** @type {import('$env/static/private').VSCODE_GIT_IPC_HANDLE} */
 export const VSCODE_GIT_IPC_HANDLE = "/var/folders/x0/gpvpt3tn5l38pmdb5zkcyq01m1yvfv/T/vscode-git-a1357f7488.sock";
 
-/** @type {import('$env/static/private').CONDA_DEFAULT_ENV} */
-export const CONDA_DEFAULT_ENV = "base";
-
 /** @type {import('$env/static/private').NVM_BIN} */
 export const NVM_BIN = "/Users/kelkeurti/.nvm/versions/node/v16.15.1/bin";
+
+/** @type {import('$env/static/private').CONDA_DEFAULT_ENV} */
+export const CONDA_DEFAULT_ENV = "base";
 
 /** @type {import('$env/static/private').npm_config_user_agent} */
 export const npm_config_user_agent = "npm/8.11.0 node/v16.15.1 darwin x64 workspaces/false";
@@ -187,9 +178,6 @@ export const GIT_ASKPASS = "/Applications/Visual Studio Code.app/Contents/Resour
 
 /** @type {import('$env/static/private').VSCODE_GIT_ASKPASS_NODE} */
 export const VSCODE_GIT_ASKPASS_NODE = "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper";
-
-/** @type {import('$env/static/private').SECURITYSESSIONID} */
-export const SECURITYSESSIONID = "186a6";
 
 /** @type {import('$env/static/private').npm_node_execpath} */
 export const npm_node_execpath = "/Users/kelkeurti/.nvm/versions/node/v16.15.1/bin/node";
