@@ -7,7 +7,8 @@
 :root {
 	--light-gray: #f9f4f4;
 	--gray: rgb(204, 202, 202);
-	--purple: rgb(67 56 202);
+	--indigo: rgb(67, 56, 202);
+	--indigo-hover: rgb(41, 33, 128);
 	--text-gray: #202020;
 }
 
@@ -26,20 +27,21 @@ div.form-heading {
 	font-weight: bolder;
 }
 
-section.form {
+section.form, section.thanks {
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-form {
+form, div.thanks {
 	align-self: center;
 	padding: 2rem;
 	border-radius: 0.5rem;
 	height: auto;
 	background-color: white;
-	filter: drop-shadow(1rem 0.75rem 4px rgb(217, 215, 215))
+	filter: drop-shadow(1rem 0.75rem 4px rgb(217, 215, 215));
+	margin: 0 0.5rem;
 }
 
 label {
@@ -64,12 +66,12 @@ input {
 }
 
 input:focus, button:focus {
-	outline: 2px solid var(--purple);
+	outline: 2px solid var(--indigo);
 	border: 1px solid transparent;	
 }
 
 button {
-	background-color: var(--purple);
+	background-color: var(--indigo);
 	-webkit-appearance: none;
 	display: flex;
 	margin: 1rem auto 0.5rem auto;
@@ -77,9 +79,26 @@ button {
 	border: none;
 	color: white;
 	border-radius: 0.5rem;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Space Grotesk', sans-serif;
 	font-size: large;
 	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+button:hover {
+	background-color: var(--indigo-hover)
+}
+
+section.thanks, div.thanks h1 {
+	padding: 1rem 0;
+}
+
+section.thanks, div.thanks p {
+	padding: 0.25rem 0;
+}
+
+section.thanks, div.thanks ul li {
+	padding: 0.25rem 0;
 }
 
 /* Tablets */
