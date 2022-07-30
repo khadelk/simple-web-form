@@ -1,38 +1,12 @@
-# create-svelte
+# A simple form
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## To run this project:
 
-## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
+After downloading this project, go to the root of the project and run:  `npm install`
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Then start the server by running `npm run dev` or `npm run dev -- --open` to open the app in a new browser tab.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+This form was made using a JavaScript framework called SvelteKit. You can read more about it [here](https://kit.svelte.dev/).
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
