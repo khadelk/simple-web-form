@@ -70,6 +70,12 @@ input:focus, button:focus {
 	border: 1px solid transparent;	
 }
 
+span.zip {
+	color: gray;
+	font-size: 0.8rem;
+	font-style: italic;
+}
+
 button {
 	background-color: var(--indigo);
 	-webkit-appearance: none;
@@ -121,6 +127,14 @@ section.thanks, div.thanks ul li {
 	form {
 		height: auto;
 		width: 50%;
+		margin: auto;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	form {
+		height: auto;
+		width: 25%;
 		margin: auto;
 	}
 }

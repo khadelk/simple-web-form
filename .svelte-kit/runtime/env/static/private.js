@@ -69,7 +69,7 @@ export const npm_config_globalconfig = "/Users/kelkeurti/.nvm/versions/node/v16.
 export const CONDA_EXE = "/Users/kelkeurti/Documents/miniforge3/bin/conda";
 
 /** @type {import('$env/static/private').SSH_AUTH_SOCK} */
-export const SSH_AUTH_SOCK = "/private/tmp/com.apple.launchd.oiinRKAmAV/Listeners";
+export const SSH_AUTH_SOCK = "/private/tmp/com.apple.launchd.xHg626YRAZ/Listeners";
 
 /** @type {import('$env/static/private').__CF_USER_TEXT_ENCODING} */
 export const __CF_USER_TEXT_ENCODING = "0x681F6DDB:0x0:0x0";
@@ -91,6 +91,9 @@ export const npm_package_json = "/Users/kelkeurti/Documents/Code/Svelte/simple-w
 
 /** @type {import('$env/static/private')._} */
 export const _ = "/Users/kelkeurti/Documents/Code/Svelte/simple-web-form/node_modules/.bin/vite";
+
+/** @type {import('$env/static/private').LaunchInstanceID} */
+export const LaunchInstanceID = "480F7967-55F2-4240-B082-FF501B6FDB24";
 
 /** @type {import('$env/static/private').npm_config_userconfig} */
 export const npm_config_userconfig = "/Users/kelkeurti/.npmrc";
@@ -178,6 +181,9 @@ export const GIT_ASKPASS = "/Applications/Visual Studio Code.app/Contents/Resour
 
 /** @type {import('$env/static/private').VSCODE_GIT_ASKPASS_NODE} */
 export const VSCODE_GIT_ASKPASS_NODE = "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper.app/Contents/MacOS/Code Helper";
+
+/** @type {import('$env/static/private').SECURITYSESSIONID} */
+export const SECURITYSESSIONID = "186a6";
 
 /** @type {import('$env/static/private').npm_node_execpath} */
 export const npm_node_execpath = "/Users/kelkeurti/.nvm/versions/node/v16.15.1/bin/node";

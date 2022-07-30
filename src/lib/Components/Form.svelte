@@ -1,4 +1,5 @@
 <script>
+	import { slide } from 'svelte/transition';
 	import { json } from '$lib/stores';
 	import { goto } from '$app/navigation'
 
@@ -9,16 +10,17 @@
 	}
 </script>
 
-<form on:submit|preventDefault={(e) => {submit(e)}}>
+<form transition:slide on:submit|preventDefault={(e) => {submit(e)}}>
 	<div class="form-heading">
 		<h1>Hire me!</h1>
-		<h2>Fill out this form if you agree that I should be hired.</h2>
+		<h2>Fill out this form if you agree that Critical Mass should hire me.</h2>
 	</div>
 	<!-- Full Name -->
 	<div class="input-padding">
-		<label for="name">Full Name</label>
+		<label for="name">Full Name (required)</label>
 		<div>
-		<input name="name" type="text" autocomplete="name">
+			<!-- Adding attribute "required" will ensure form cannot be submitted without the name -->
+		<input name="name" type="text" autocomplete="name" required>
 		</div>
 	</div>
 
@@ -26,7 +28,8 @@
 	<div class="input-padding">
 		<label for="email">Email</label>
 		<div>
-		<input name="email" type="text" autocomplete="email">
+			<!-- Adding type "email" ensures the email is in the correct format -->
+		<input name="email" type="email" autocomplete="email">
 		</div>
 	</div>
 
@@ -60,10 +63,12 @@
 
 		<!-- Zip -->
 		<div class="input-padding">
-			<label for="zip">Zip</label>
+			<label for="zip">Zip Code </label>
 			<div>
-			<input name="zip" type="text" autocomplete="postal-code">
+			<input name="zip" type="text" autocomplete="postal-code" title="Please use a five digit zip code" pattern="[0-9]*">
+			<span class="zip">5 digits</span>
 			</div>
+			
 		</div>
 	</div>
 	<button type="submit" value="submit" class="submit-button">Submit</button>
